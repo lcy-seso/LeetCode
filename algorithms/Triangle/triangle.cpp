@@ -1,15 +1,7 @@
 #include <iostream>
 #include <limits>
-#include <random>
 
-void randint(const int min, const int max, std::vector<int>& vec) {
-  std::random_device rnd_device;
-  std::mt19937 mersenne_engine(rnd_device());
-  std::uniform_int_distribution<int> dist(min, max);
-  auto gen = std::bind(dist, mersenne_engine);
-
-  std::generate(vec.begin(), vec.end(), gen);
-}
+#include "../utils/utils.h"
 
 void printTriangle(const std::vector<std::vector<int>>& in) {
   size_t row_id = 0;
@@ -26,10 +18,7 @@ void genRandInput(std::vector<std::vector<int>>& out,
                   const int min,
                   const int max) {
   out.resize(depth);
-  for (size_t i = 0; i < depth; ++i) {
-    out[i].resize(i + 1);
-    randint(min, max, out[i]);
-  }
+  for (size_t i = 0; i < depth; ++i) genRandIntList(out[i], i + 1, min, max);
 }
 
 int minimumTotal(std::vector<std::vector<int>>& triangle) {

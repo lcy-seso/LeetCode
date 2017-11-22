@@ -1,20 +1,7 @@
 #include <iostream>
-#include <random>
 #include <vector>
 
-void genRandomInput(const int min, const int max, std::vector<int>& vec) {
-  std::random_device rnd_device;
-  std::mt19937 mersenne_engine(rnd_device());
-  std::uniform_int_distribution<int> dist(min, max);
-  auto gen = std::bind(dist, mersenne_engine);
-
-  std::generate(vec.begin(), vec.end(), gen);
-}
-
-void printList(const std::vector<int>& in) {
-  for (auto value : in) std::cout << value << " ";
-  std::cout << std::endl << std::endl;
-}
+#include "../utils/utils.h"
 
 std::vector<int> maxSlidingWindow(std::vector<int>& nums, const int k) {
   // A naive and the most direct solution that everyone can think of.
@@ -43,10 +30,10 @@ int main() {
   const int kMaxValue = 7;
 
   std::vector<int> nums(kVecLength);
-  genRandomInput(kMinValue, kMaxValue, nums);
+  genRandIntList(nums, kVecLength, kMinValue, kMaxValue);
 
   std::cout << "Input numbers :" << std::endl;
-  printList(nums);
+  printList<int>(nums);
 
   int window_size = 3;
 
