@@ -3,13 +3,14 @@
 #include "../utils/utils.h"
 
 bool isPerfectSquare(int num) {
-  // TODO: This solution exceeds the time limit.
   if (num < 0) return false;
 
   int left = 0;
   int right = num;
   while (left <= right) {
     int mid = left + (right - left) / 2;
+
+    // This line may have the overflow problem.
     int square = mid * mid;
     if (square == num)
       return true;

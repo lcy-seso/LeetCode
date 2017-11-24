@@ -3,7 +3,7 @@
 
 #include "../utils/utils.h"
 
-std::vector<int> maxSlidingWindow(std::vector<int>& nums, const int k) {
+std::vector<int> maxSlidingWindowNaive(std::vector<int>& nums, const int k) {
   // A naive and the most direct solution that everyone can think of.
 
   std::vector<int> max_elements;
@@ -38,6 +38,6 @@ int main() {
   int window_size = 3;
 
   std::cout << "The maximum elements in window :" << std::endl;
-  printList(maxSlidingWindow(nums, window_size));
+  printList(maxSlidingWindowNaive(nums, window_size));
   return 0;
 }
