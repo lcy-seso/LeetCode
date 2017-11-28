@@ -8,3 +8,4 @@ LeetCode
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/)|[valid_perfect_square.cpp](algorithms/valid_perfect_square/valid_perfect_square.cpp)|Easy|Pay attention to the overflow problem.|
 |373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/)|[k_smallest_pairs.cpp](algorithms/find_k_pairs_with_smallest_sums/k_smallest_pairs.cpp)|Medium|Priority Queue / Heap|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/description/)|[maximal_square.cpp](algorithms/maximal_square/maximal_square.cpp)|Medium|Dynamic Programming|
+|719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)|[find_k_th_smallest_pair_distance.cpp](algorithms/find_k_th_smallest_pair_distance/find_k_th_smallest_pair_distance.cpp)|Hard|Bitmap|
