@@ -13,10 +13,7 @@ template <typename Key, typename Value>
 class BinarySearchTree {
 public:
   BinarySearchTree() : root_(NULL), node_num_(0){};
-  ~BinarySearchTree() {
-    if (root_) {
-    }
-  };
+  ~BinarySearchTree() { makeEmpty(root_); };
 
   /*
    * This function modify the tree in place. The prior version of the tree is
@@ -91,5 +88,22 @@ private:
     if (mode == "in-order") visit(node->key, node->val);
     traverseImp(node->right, visit, mode);
     if (mode == "post-order") visit(node->key, node->val);
+  };
+
+  void makeEmpty(TreeNode* node) {
+    if (node != NULL) {
+      makeEmpty(node->left);
+      makeEmpty(node->right);
+      delete node;
+    }
+    node = NULL;
+  };
+
+  TreeNode* minimum(const TreeNode* tree_root) {
+    if (!tree_root) return NULL;
+
+    Value min_val = tree_root->val;
+    TreeNode* = trailing_ptr = tree_root->left()
+
   };
 };

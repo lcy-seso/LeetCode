@@ -24,6 +24,7 @@ int main() {
   std::cout << bst.getNodeNum() << " nodes in the tree." << std::endl;
   std::string mode = "in-order";
 
+
   bst.traverseTree(
       [](int key, int val) {
         std::cout << "(" << key << "," << val << ")" << std::endl;
