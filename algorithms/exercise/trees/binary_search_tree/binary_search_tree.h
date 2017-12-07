@@ -42,7 +42,9 @@ public:
     node_num_++;
   };
 
-  Value& search(Key key) { return static_cast<Value>(0); };
+  bool search(const Key key, Value* val_ptr) const {
+    return searchImp(root_, key, val_ptr);
+  };
 
   bool del(Key key) { return false; };
 
@@ -99,11 +101,18 @@ private:
     node = NULL;
   };
 
-  TreeNode* minimum(const TreeNode* tree_root) {
-    if (!tree_root) return NULL;
+  bool searchImp(TreeNode* node, const Key key, Value* val_ptr) const {
+    if (node == NULL) {
+      val_ptr = NULL;
+      return false;
+    } else if (node->key == key) {
+      *val_ptr = node->val;
+      return true;
+    }
 
-    Value min_val = tree_root->val;
-    TreeNode* = trailing_ptr = tree_root->left()
-
-  };
+    if (key < node->key)
+      return searchImp(node->left, key, val_ptr);
+    else
+      return searchImp(node->right, key, val_ptr);
+  }
 };
