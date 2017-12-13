@@ -12,3 +12,4 @@ LeetCode
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|[maximum_subarray.cpp](algorithms/maximum_subarray/maximum_subarray.cpp)|Easy|Dynamic Programming/Devide and Conquer ([a reference](https://zh.wikipedia.org/wiki/%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E5%88%97%E9%97%AE%E9%A2%98))|
 |493|[Reverse Pairs](https://leetcode.com/problems/reverse-pairs/description/)|[reverse_pairs](algorithms/reverse_pairs/reverse_pairs.cpp)|Hard|BIT/BST|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)|[search_insert_position](algorithms/search_insert_position/search_insert_position.cpp)|Easy| Binary Search|
+|402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/description/)|[remove_k_digits.cpp](algorithms/remove_k_digits/remove_k_digits.cpp)|Medium|Just analysis, and boundary cases|
