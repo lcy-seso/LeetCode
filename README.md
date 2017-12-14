@@ -15,4 +15,5 @@ LeetCode
 |402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/description/)|[remove_k_digits.cpp](algorithms/remove_k_digits/remove_k_digits.cpp)|Medium|Just analysis, and boundary cases|
 |93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/)|[restore_ip_addresses.cpp](algorithms/restore_ip_addresses/restore_ip_addresses.cpp)|Medium|Just analysis, and boundary cases|
 |743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/description/)||Medium|BFS|
-|114.|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)|[flatten_binary_tree_to_linked_list.cpp](algorithms/flatten_binary_tree_to_linked_list/flatten_binary_tree_to_linked_list.cpp)|Medium|traverse the binary tree.|
+|114.|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)|[flatten_binary_tree_to_linked_list.cpp](algorithms/flatten_binary_tree_to_linked_list/flatten_binary_tree_to_linked_list.cpp)|Medium|traverse the binary tree|
+|257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/discuss/)|[binary_tree_paths.cpp](algorithms/binary_tree_paths/binary_tree_paths.cpp)|Easy|Nothing special, traverse the tree.|
