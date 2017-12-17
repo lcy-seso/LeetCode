@@ -1,4 +1,4 @@
-LeetCode
+Solved
 ========
 
 | | Title | Solution | Difficulty |Key Point|
@@ -17,3 +17,6 @@ LeetCode
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)|[flatten_binary_tree_to_linked_list.cpp](algorithms/flatten_binary_tree_to_linked_list/flatten_binary_tree_to_linked_list.cpp)|Medium|traverse the binary tree|
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/discuss/)|[binary_tree_paths.cpp](algorithms/binary_tree_paths/binary_tree_paths.cpp)|Easy|Nothing special, traverse the tree.|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/description/)|[add_binary.cpp](algorithms/add_binary/add_binary.cpp)|Easy|Nothing special|
+|327|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/description/)|[count_of_range_sum.cpp](algorithms/count_of_range_sum/count_of_range_sum.cpp)|Hard|[Merge Sort for "the two pointer problem"](https://discuss.leetcode.com/topic/33738/share-my-solution/18), the solution to this problem is very similar to 493. reverse pair.|
+|472|[Concatenated Words](https://leetcode.com/problems/concatenated-words/description/)||Hard||
+|124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)||Hard|
