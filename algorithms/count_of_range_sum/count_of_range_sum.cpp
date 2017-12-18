@@ -31,6 +31,7 @@ int countWithMergeSort(
   int count = countWithMergeSort(sums, start, mid, lower, upper) +
               countWithMergeSort(sums, mid, end, lower, upper);
 
+  // The merge step.
   std::vector<long> cache(end - start, 0);
   int j = mid;
   int k = mid;
