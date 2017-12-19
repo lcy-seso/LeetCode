@@ -2,12 +2,8 @@
 #include <string>
 #include <vector>
 
-struct TreeNode {
-  int val;
-  TreeNode* left;
-  TreeNode* right;
-  TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
+#include "../utils/tree_utils.h"
+#include "../utils/utils.h"
 
 void pre_order_traverse(TreeNode* node,
                         std::vector<std::string>& paths,
@@ -33,4 +29,15 @@ std::vector<std::string> binaryTreePaths(TreeNode* root) {
   return paths;
 }
 
-int main() { return 0; }
+int main() {
+  const size_t kTreeNodeNum = 10;
+  const int kMinNodeVal = 2;
+  const int kMaxNodeVal = 15;
+  TreeNode* root =
+      gen_random_binary_tree(kTreeNodeNum, kMinNodeVal, kMaxNodeVal);
+  std::vector<std::string> paths = binaryTreePaths(root);
+  printList<std::string>(paths);
+
+  emptyTree(root);
+  return 0;
+}
