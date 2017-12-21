@@ -20,4 +20,6 @@ Solved
 |327|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/description/)|[count_of_range_sum.cpp](algorithms/count_of_range_sum/count_of_range_sum.cpp)|Hard|[Merge Sort for "the two pointer problem"](https://discuss.leetcode.com/topic/33738/share-my-solution/18), the solution to this problem is very similar to 493. reverse pair.|
 |472|[Concatenated Words](https://leetcode.com/problems/concatenated-words/description/)|[ concatenated_words.cpp](algorithms/concatenated_words/concatenated_words.cpp)|Hard|Dynamic programming, but this may not good enough, may be I can still try Trie tree.|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)|[binary_tree_maximum_path_sum.cpp](algorithms/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.cpp)|Hard|Analysis. Recursive function on a tree.|
-|312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)||Hard|
+|148|[Sort List](https://leetcode.com/problems/sort-list/description/)|[sort_list.cpp](algorithms/sort_list/sort_list.cpp)|Medium|Merge sort on linked list.|
+|312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)||Hard||
+|483|[Smallest Good Base](https://leetcode.com/problems/smallest-good-base/description/)||Hard||
