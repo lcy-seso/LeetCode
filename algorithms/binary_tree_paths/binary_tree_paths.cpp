@@ -9,6 +9,7 @@ void pre_order_traverse(TreeNode* node,
                         std::vector<std::string>& paths,
                         std::string s) {
   if (!node->left && !node->right) {
+    // When reaching the leaf node, push the string to the output paths.
     paths.push_back(s);
     return;
   }
