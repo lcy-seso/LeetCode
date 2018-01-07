@@ -22,3 +22,6 @@ Solved
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)|[binary_tree_maximum_path_sum.cpp](algorithms/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.cpp)|Hard|Analysis. Recursive function on a tree.|
 |148|[Sort List](https://leetcode.com/problems/sort-list/description/)|[sort_list.cpp](algorithms/sort_list/sort_list.cpp)|Medium|Merge sort on linked list.|
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)|[burst_balloons.cpp](algorithms/burst_balloons/burst_balloons.cpp)|Hard|Dynamic programming.|
+|546|[Remove Boxess](https://leetcode.com/problems/remove-boxes/description/)||Hard|Dynamic Programming, modify the definition of the problem to absorb the external information so that the new one is self-contained.|
+|752|[Open the Lock](https://leetcode.com/contest/weekly-contest-64/problems/open-the-lock/)||Medium||
+|743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/description/)|[network_delay_time.cpp](algorithms/network_delay_time/network_delay_time.cpp)|Medium|BFS|
