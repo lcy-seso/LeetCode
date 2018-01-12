@@ -25,3 +25,4 @@ Solved
 |546|[Remove Boxess](https://leetcode.com/problems/remove-boxes/description/)||Hard|Dynamic Programming, modify the definition of the problem to absorb the external information so that the new one is self-contained.|
 |752|[Open the Lock](https://leetcode.com/contest/weekly-contest-64/problems/open-the-lock/)|[open_the_lock.cpp](algorithms/open_the_lock/open_the_lock.cpp)|Medium|BFS|
 |743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/description/)|[network_delay_time.cpp](algorithms/network_delay_time/network_delay_time.cpp)|Medium|BFS|
+|409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)|[longest_palindrome.cpp](algorithms/longest_palindrome/longest_palindrome.cpp)|Easy|pay attention to special case.|
