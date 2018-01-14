@@ -7,7 +7,7 @@ void add_neighbor(std::string& str, std::queue<std::string>& to_be_searched) {
   for (size_t i = 0; i < 4; ++i) {
     char c = str[i];
 
-    str[i] = (c - '0' + 1) % 10 % +'0';
+    str[i] = (c - '0' + 1) % 10 + '0';
     to_be_searched.push(str);
 
     str[i] = (c - '0' - 1 + 10) % 10 + '0';
@@ -42,7 +42,8 @@ int openLock(std::vector<std::string>& deadends, const std::string& target) {
 
       if (deadends_set.find(cur_node) != deadends_set.end() ||
           visited.find(cur_node) != visited.end())
-        continue;  // A deadend is encountered.
+        continue;  // A deadend is encountered or the state has already
+                   // encountered
 
       visited.insert(cur_node);
       add_neighbor(cur_node, to_be_searched);
