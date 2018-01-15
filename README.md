@@ -30,5 +30,7 @@ Solved
 |77|[Combinations](https://leetcode.com/problems/combinations/description/)|[combinations.cpp](algorithms/combinations/combinations.cpp)|Medium|BFS + recursive solution|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[combination_sum.cpp](algorithms/combination_sum/combination_sum.cpp)|Medium|BFS + recursive solution. The same as 77.|
 |112|[Path Sum](https://leetcode.com/problems/path-sum/description/)|[path_sum.cpp](algorithms/path_sum/path_sum.cpp)|Easy|traverse the binary tree.|
-|113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)||
+|113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)|[path_sum_2.cpp](algorithms/path_sum_2/path_sum_2.cpp)|Medium|traverse the binary tree.|
 |46|[Permutations](https://leetcode.com/problems/permutations/description/)|[ permutations.cpp](algorithms/permutations/permutations.cpp)|Medium|BFS + recursive solution|
+|437|[path_sum_3](https://leetcode.com/problems/path-sum-iii/description/)|[path_sum_3.cpp](algorithms/path_sum_3/path_sum_3.cpp)|Easy||
+|392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)|[is_subsequence.cpp](algorithms/is_subsequeence/is_subsequence.cpp)|Medium||
