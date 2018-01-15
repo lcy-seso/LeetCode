@@ -31,4 +31,4 @@ Solved
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[combination_sum.cpp](algorithms/combination_sum/combination_sum.cpp)|Medium|BFS + recursive solution. The same as 77.|
 |112|[Path Sum](https://leetcode.com/problems/path-sum/description/)||
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)||
-|46|[Permutations](https://leetcode.com/problems/permutations/description/)|
+|46|[Permutations](https://leetcode.com/problems/permutations/description/)|[ permutations.cpp](algorithms/permutations/permutations.cpp)|Medium|BFS + recursive solution|
