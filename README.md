@@ -29,6 +29,6 @@ Solved
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)|[top_k_frequent_words.cpp](algorithms/top_k_frequent_words/top_k_frequent_words.cpp)|Medium|Not very special, sort.|
 |77|[Combinations](https://leetcode.com/problems/combinations/description/)|[combinations.cpp](algorithms/combinations/combinations.cpp)|Medium|BFS + recursive solution|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[combination_sum.cpp](algorithms/combination_sum/combination_sum.cpp)|Medium|BFS + recursive solution. The same as 77.|
-|112|[Path Sum](https://leetcode.com/problems/path-sum/description/)||
+|112|[Path Sum](https://leetcode.com/problems/path-sum/description/)|[path_sum.cpp](algorithms/path_sum/path_sum.cpp)|Easy|traverse the binary tree.|
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)||
 |46|[Permutations](https://leetcode.com/problems/permutations/description/)|[ permutations.cpp](algorithms/permutations/permutations.cpp)|Medium|BFS + recursive solution|
