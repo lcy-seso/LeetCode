@@ -28,3 +28,7 @@ Solved
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)|[longest_palindrome.cpp](algorithms/longest_palindrome/longest_palindrome.cpp)|Easy|pay attention to special case.|
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)|[top_k_frequent_words.cpp](algorithms/top_k_frequent_words/top_k_frequent_words.cpp)|Medium|Not very special, sort.|
 |77|[Combinations](https://leetcode.com/problems/combinations/description/)|[combinations.cpp](algorithms/combinations/combinations.cpp)|Medium|BFS + recursive solution|
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[combination_sum.cpp](algorithms/combination_sum/combination_sum.cpp)|Medium|BFS + recursive solution. The same as 77.|
+|112|[Path Sum](https://leetcode.com/problems/path-sum/description/)||
+|113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)||
+|46|[Permutations](https://leetcode.com/problems/permutations/description/)|
