@@ -34,4 +34,4 @@ Solved
 |46|[Permutations](https://leetcode.com/problems/permutations/description/)|[ permutations.cpp](algorithms/permutations/permutations.cpp)|Medium|BFS + recursive solution|
 |437|[path_sum_3](https://leetcode.com/problems/path-sum-iii/description/)|[path_sum_3.cpp](algorithms/path_sum_3/path_sum_3.cpp)|Easy|Two recursive function.|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)|[is_subsequence.cpp](algorithms/is_subsequeence/is_subsequence.cpp)|Medium||
-|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)|[minimum_path_sum.cpp](algorithms/is_subsequeence/minimum_path_sum.cpp)|Medium|
+|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)|[minimum_path_sum.cpp](algorithms/is_subsequeence/minimum_path_sum.cpp)|Medium|Dynamic programming. Similar to 221|
