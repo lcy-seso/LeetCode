@@ -36,4 +36,5 @@ Solved
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)|[is_subsequence.cpp](algorithms/is_subsequence/is_subsequence.cpp)|Medium|Nothing special.|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)|[minimum_path_sum.cpp](algorithms/is_subsequence/minimum_path_sum.cpp)|Medium|Dynamic programming. Similar to 221|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/description/)|[unique_paths.cpp](algorithms/unique_paths/unique_paths.cpp)|Medium|Dynamic programming. Similar to 221|
-|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)|[number_of_1_bits.cpp](algorithms/number_of_1_bits/number_of_1_bits.cpp)|Easy|basic bit operation.|
+|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)|[number_of_1_bits.cpp](algorithms/number_of_1_bits/number_of_1_bits.cpp)|Easy|basic bit manipulation.|
+|338|[Counting Bits](https://leetcode.com/problems/counting-bits/description/)|[counting_bits](algorithms/counting_bits/counting_bits.cpp)|Medium|Dynamic programming and bit manipulation.|
