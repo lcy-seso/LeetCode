@@ -43,3 +43,4 @@ Solved
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)|[serialize_and_deserialize_binary_tree.cpp](algorithms/serialize_and_deserialize_binary_tree/serialize_and_deserialize_binary_tree)|Hard|
 |599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/discuss/)|[minimum_index_sum_of_two_lists.cpp](algorithms/minimum_index_sum_of_two_lists/minimum_index_sum_of_two_lists.cpp)|Easy|Nothing special.|
 |456|[132 Pattern](https://leetcode.com/problems/132-pattern/description/)|[132_pattern.cpp](algorithms/132_pattern/132_pattern.cpp)|Medium|Stack. When find a pattern that is composed of three elements, try to fix two of them and focusing on finding the last.|
+|66|[Plus One](https://leetcode.com/problems/plus-one/description/)|[plus_one.cpp](algorithms/plus_one/plus_one.cpp)|Easy|Very easy, just for exercise.|
