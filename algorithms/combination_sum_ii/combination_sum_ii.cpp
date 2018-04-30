@@ -1,6 +1,4 @@
 #include <iostream>
-#include <numeric>
-#include <set>
 #include <vector>
 
 void BFS(const std::vector<int>& candidates,

@@ -21,8 +21,6 @@ void BFS(const std::vector<int>& candidates,
 
 std::vector<std::vector<int>> combinationSum(std::vector<int>& candidates,
                                              int target) {
-  std::sort(candidates.begin(), candidates.end());
-
   std::vector<std::vector<int>> results;
   std::vector<int> combination;
   BFS(candidates, 0, target, results, combination);
