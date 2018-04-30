@@ -33,3 +33,11 @@
         entry: bash .clang_format.hook -i
         language: system
         files: \.(c|cc|cxx|cpp|cu|h|hpp|hxx|cuh|proto)$
+-   repo: local
+    hooks:
+    -   id: cpplint-cpp-source
+        name: cpplint
+        description: Check C++ code style using cpplint.py.
+        entry: bash ./.tools/cpplint_pre_commit.hook
+        language: system
+        files: \.(c|cc|cxx|cpp|cu|h|hpp|hxx)$
