@@ -46,3 +46,4 @@ MSolved
 |66|[Plus One](https://leetcode.com/problems/plus-one/description/)|[plus_one.cpp](algorithms/plus_one/plus_one.cpp)|Easy|Very easy, just for exercise.|
 |88|[Partition List](https://leetcode.com/problems/partition-list/description/)|||
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)|[combination_sum_ii.cpp](algorithms/combination_sum_ii/combination_sum_ii.cpp)|Medium|Similar to 77 and 39.|
+|662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)|[maximum_width_of_binary_tree.cpp](algorithms/maximum_width_of_binary_tree/maximum_width_of_binary_tree.cpp)|Meduim|Traverse the tree by level order|
