@@ -49,3 +49,4 @@ MSolved
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)|[maximum_width_of_binary_tree.cpp](algorithms/maximum_width_of_binary_tree/maximum_width_of_binary_tree.cpp)|Meduim|Traverse the tree by level order|
 |386|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/description/)|[lexicographical_numbers.cpp](algorithms/lexicographical_numbers/lexicographical_numbers.cpp)|Medium|Stack|
 |756|[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/description/)||Medium||
+|684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)|[redundant_connection.cpp](algorithms/redundant_connection/redundant_connection.cpp)|Medium|DFS/BFS/[Union Find](https://www.geeksforgeeks.org/union-find/)|
