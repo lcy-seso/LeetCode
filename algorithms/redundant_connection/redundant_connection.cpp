@@ -35,8 +35,9 @@ bool dfs(const std::vector<std::vector<int>>& edges,
   return std::accumulate(visited.begin(), visited.end(), 0) == node_count;
 }
 
-std::vector<int> findRedundantConnection(
+std::vector<int> findRedundantConnection1(
     const std::vector<std::vector<int>>& edges) {
+  // this is a brute force solution.
   for (int i = edges.size() - 1; i >= 0; --i) {
     if (dfs(edges, i, 1, edges.size())) return edges[i];
   }
@@ -45,10 +46,36 @@ std::vector<int> findRedundantConnection(
   return std::vector<int>(2, -1);
 }
 
+std::vector<int> findRedundantConnection(
+    const std::vector<std::vector<int>>& edges) {
+  // a better solution using union-find.
+
+  // the input is a tree plus one extra edge, so the vertex number in the graph
+  // is edges.size().
+  std::vector<int> parents(edges.size() + 1, 0);
+  for (int i = 1; i < parents.size(); ++i) parents[i] = i;
+
+  auto getParent = [](const std::vector<int>& parents, int x) -> int {
+    while (x != parents[x]) x = parents[x];
+    return x;
+  };
+  for (auto edge : edges) {
+    if (getParent(parents, edge[0]) == getParent(parents, edge[1])) return edge;
+
+    parents[getParent(parents, edge[0])] = getParent(parents, edge[1]);
+  }
+
+  // Actually reaching here means an invalid input is given.
+  return std::vector<int>(2, -1);
+}
+
 int main() {
   // std::vector<std::vector<int>> edges = {{1, 2}, {1, 3}, {2, 3}};
+  // std::vector<std::vector<int>> edges = {
+  //     {1, 2}, {2, 3}, {3, 4}, {1, 4}, {1, 5}};
+
   std::vector<std::vector<int>> edges = {
-      {1, 2}, {2, 3}, {3, 4}, {1, 4}, {1, 5}};
+      {1, 4}, {3, 4}, {1, 3}, {1, 2}, {4, 5}};
   std::vector<int> result = findRedundantConnection(edges);
 
   std::cout << "[" << result[0] << " " << result[1] << "]" << std::endl;
