@@ -50,3 +50,4 @@ MSolved
 |386|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/description/)|[lexicographical_numbers.cpp](algorithms/lexicographical_numbers/lexicographical_numbers.cpp)|Medium|Stack|
 |756|[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/description/)||Medium||
 |684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)|[redundant_connection.cpp](algorithms/redundant_connection/redundant_connection.cpp)|Medium|DFS/BFS/[Union Find](https://www.geeksforgeeks.org/union-find/)|
+|547|[Friend Circles](https://leetcode.com/problems/friend-circles/description/)|[friend_circles.cpp](algorithms/friend_circles/friend_circles.cpp)|Medium|DFS/Union-Find
