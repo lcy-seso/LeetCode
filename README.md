@@ -1,4 +1,4 @@
-MSolved
+Solved
 ========
 
 | | Title | Solution | Difficulty |Key Point|
@@ -52,3 +52,4 @@ MSolved
 |684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)|[redundant_connection.cpp](algorithms/redundant_connection/redundant_connection.cpp)|Medium|DFS/BFS/[Union Find](https://www.geeksforgeeks.org/union-find/)|
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/description/)|[friend_circles.cpp](algorithms/friend_circles/friend_circles.cpp)|Medium|DFS/Union-Find|
 |611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)|[valid_triangle_number.cpp](algorithms/valid_triangle_number/valid_triangle_number.cpp)|Medium|binary search|
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/)|[pascal_triangle_2.cpp](algorithms/pascal_triangle_2/pascal_triangle_2.cpp)|Easy||

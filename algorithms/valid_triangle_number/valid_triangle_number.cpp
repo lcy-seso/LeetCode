@@ -4,21 +4,21 @@
 // return index of the last element that is smaller than val.
 // return -1 if no valid result is found.
 int binarySearch(const std::vector<int>& nums, int start_index, int val) {
+  if (nums[start_index] >= val) return start_index - 1;
+
   int lower = start_index;
   int upper = nums.size() - 1;
-
-  if (lower == upper) return nums[start_index] < val ? start_index : -1;
-
   int mid = (lower + upper) / 2;
   while (upper - lower > 1) {
-    if (nums[mid] > val)
+    if (nums[mid] >= val)
       upper = mid;
     else
       lower = mid;
     mid = (lower + upper) / 2;
   }
 
-  return nums[lower] >= val ? -1 : nums[upper] >= val ? lower : upper;
+  return nums[lower] >= val ? start_index - 1 : nums[upper] >= val ? lower
+                                                                   : upper;
 }
 
 int triangleNumber(std::vector<int>& nums) {
@@ -26,12 +26,11 @@ int triangleNumber(std::vector<int>& nums) {
 
   int num_count = nums.size();
   size_t count = 0;
-
-  for (size_t i = 0; i < num_count - 2; ++i) {
-    for (size_t j = i + 1; j < num_count - 1; ++j) {
-      int ids = binarySearch(nums, j + 1, nums[i] + nums[j]);
-
-      if (ids != -1) count += (ids - j);
+  for (int i = 0; i < num_count - 2; ++i) {
+    int start_ids = i + 2;
+    for (int j = i + 1; j < num_count - 1 && nums[i]; ++j) {
+      start_ids = binarySearch(nums, start_ids, nums[i] + nums[j]);
+      if (start_ids > j) count += (start_ids - j);
     }
   }
   return count;
@@ -95,6 +94,8 @@ int main() {
       10, 39, 4,  2,  27, 1,  25, 18, 40, 50, 9,  35, 37, 27, 37, 39, 29, 2,
       38, 32, 6,  30, 32, 4,  43, 46, 21, 9,  40, 45, 49, 34, 37, 4,  55, 19,
       47, 3,  42, 33, 13, 43, 3,  3,  22, 49};
+
+  // std::vector<int> nums = {1, 2, 3, 4, 5, 6};  // expected 7
 
   std::cout << triangleNumber(nums) << std::endl;
   return 0;
