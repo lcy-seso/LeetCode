@@ -54,3 +54,5 @@ Solved
 |611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)|[valid_triangle_number.cpp](algorithms/valid_triangle_number/valid_triangle_number.cpp)|Medium|binary search|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/)|[pascal_triangle_2.cpp](algorithms/pascal_triangle_2/pascal_triangle_2.cpp)|Easy||
 |735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/description/)|[asteroid_collision.cpp](algorithms/asteroid_collision/asteroid_collision.cpp)|Medium|analysis and stack|
+|525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/description/)|[contiguous_array.cpp](algorithms/contiguous_array/contiguous_array.cpp)|Medium|
+|433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)|[minimum_genetic_mutation.cpp](algorithms/minimum_genetic_mutation/minimum_genetic_mutation.cpp)|Medium|BFS, the same to 752|
