@@ -57,3 +57,4 @@ Solved
 |525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/description/)|[contiguous_array.cpp](algorithms/contiguous_array/contiguous_array.cpp)|Medium|
 |433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)|[minimum_genetic_mutation.cpp](algorithms/minimum_genetic_mutation/minimum_genetic_mutation.cpp)|Medium|BFS, the same to 752|
 |554|[Brick Wall](https://leetcode.com/problems/brick-wall/description/)|[brick_wall.cpp](algorithms/brick_wall/brick_wall.cpp)|Medium|Very Easy ....|
+|399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)|[evaluate_division.cpp](algorithms/evaluate_division/evaluate_division.cpp)|Medium|BFS|
