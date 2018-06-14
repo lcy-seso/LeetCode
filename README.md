@@ -58,3 +58,5 @@ Solved
 |433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)|[minimum_genetic_mutation.cpp](algorithms/minimum_genetic_mutation/minimum_genetic_mutation.cpp)|Medium|BFS, the same to 752|
 |554|[Brick Wall](https://leetcode.com/problems/brick-wall/description/)|[brick_wall.cpp](algorithms/brick_wall/brick_wall.cpp)|Medium|Very Easy ....|
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)|[evaluate_division.cpp](algorithms/evaluate_division/evaluate_division.cpp)|Medium|BFS|
+|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)|[merge_intervals.cpp](algorithms/merge_intervals/merge_intervals.cpp)|Medium|Use you analysis.|
+|730|[Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/description/)||Hard|
