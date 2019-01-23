@@ -61,3 +61,4 @@ Solved
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)|[merge_intervals.cpp](algorithms/merge_intervals/merge_intervals.cpp)|Medium|Use you analysis.|
 |730|[Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/description/)||Hard|
 |648|[Replace Words](https://leetcode.com/problems/replace-words/description/)|[replace_words.cpp](algorithms/replace_words/replace_words.cpp)|Medium|Trei Tree|
+|590.|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) |  |Easy|   |
